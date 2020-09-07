@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        let userName = prompt("Введите свое имя:", "инкогнито");
+
+        if (userName === null) {
+            alert("Вы отменили ввод");
+        } else {
+            alert(`Ваше имя: ${userName}`);
+        };
+
+    </script>
+</body>
+
+</html>
